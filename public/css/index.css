@@ -1,0 +1,84 @@
+#root .page{
+    min-height: 100vh;
+}
+
+.wrap {
+    margin: 0 5px;
+}
+
+#header{
+    padding: 0;
+}
+
+#footer {
+    padding: 24px 0;
+}
+
+.logo{
+    margin: 0;
+}
+
+.wrap .topics_list{
+    background: #ffffff;
+    padding: 0 15px;
+}
+
+.wrap .topics_list .topic-tag{
+    margin: 0 5px;
+}
+
+.wrap .topics_list .from-now{
+    text-align: right;
+}
+
+.wrap .index_nav{
+    margin-top: 10px;
+}
+
+.wrap .index_pagination{
+    border-top: 1px solid #f0f0f0;
+    padding: 10px 5px;
+    background: #fff;
+    display: flex;
+}
+
+.user_page .ant-card{
+    margin-top: 10px;
+}
+
+.user-details{
+    text-align: center;
+}
+
+/*媒体查询*/
+/*>=576*/
+@media all and (min-width: 576px) {
+    .wrap {
+        margin: 0 10px;
+    }
+}
+
+@media all and (min-width: 768px) {
+    .wrap {
+        margin: 0 15px;
+    }
+}
+
+@media all and (min-width: 992px) {
+    .wrap {
+        margin: 0 20px;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    .wrap {
+        margin: 0 auto;
+        width: 980px;
+    }
+}
+
+@media all and (min-width: 1600px) {
+    .wrap {
+        width: 1200px;
+    }
+}
