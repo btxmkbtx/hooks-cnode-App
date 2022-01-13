@@ -59,5 +59,6 @@
     "css-loader": "^5.2.6",
     "less-loader": "5.0.0",
     "style-loader": "^2.0.0"
-  }
+  },
+  "proxy": "https://cnodejs.org/api/v1"
 }

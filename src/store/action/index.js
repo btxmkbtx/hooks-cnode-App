@@ -1,8 +1,9 @@
 import axios from "axios";
 import {useDispatch} from "react-redux";
 
+//基础url配置在了package.json的代理中，所以这里只留一个空字符串
 const http = axios.create({
-    baseURL: "https://cnodejs.org/api/v1"
+    baseURL: ""
 })
 
 //采用高阶函数的形式来自定义useDispatch
